@@ -1,0 +1,39 @@
+.social-media-row {
+    text-align: center; 
+    margin-top: 20px; 
+    background-color:#875b7ca0;
+  }
+  
+  .social-media-col {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+  
+  .social-media-icon {
+    font-size: 1.5rem;
+    color: white; 
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .social-media-icon:hover {
+    color:#4a2b42;
+    transform: scale(1.3); 
+  }
+  
+  /* تحسين الحجم للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .social-media-icon {
+      font-size: 1.0rem;
+    }
+  }
+  
+  /* تحسين الحجم للشاشات الكبيرة */
+  @media (min-width: 1200px) {
+    .social-media-icon {
+      font-size: 2.0rem;
+    }
+  }
+  

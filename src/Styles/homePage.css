@@ -1,0 +1,538 @@
+/* * Satrt HomePage Main Vedio */
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.155);
+}
+
+/* ! End HomePage Main Vedio */
+
+/* * Start First Section  */
+.homePageText1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 60px;
+  color: #113454;
+  margin-top: 0 !important;
+
+}
+
+.homePageText1:hover {
+}
+
+.HomePageImg1 {
+  width: 550px;
+}
+
+.zoomTechName {
+  width: 150px;
+
+}
+.homePageFirstRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.centerHomePage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.home-page-section-3-img-col{
+
+  display: flex;
+  justify-content: left !important;
+  align-items: center;
+
+}
+
+/* ! Start First Section  */
+
+/* * Start Second Section  */
+.homePage-section2-img1 {
+  width: 100%;
+  height: 400px;
+}
+
+.homePageSection2 {
+  background-color: #686f80;
+  margin-top: 0;
+}
+.setion2-video-background {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+/* ! End First Section  */
+
+/* * Start Section-3  */
+
+/* Section 3 start  */
+.homePageSection3 {
+  background-color: #f3f4f6;
+}
+.homePage-section3-img2 {
+  width: 300px;
+}
+.homePage-section3-img2-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homePage-section3-img3-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-btns-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.home-btns-img {
+  width: 120px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.home-btns-img:hover {
+  border-color: #875b7c;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.home-btns-title {
+  font-size: 15px;
+  font-weight: 900;
+  color: #113454  ;
+}
+
+/* ! End Section-3  */
+
+/* * Start Section-4 (Busnies Solution)  */
+
+.BusinessSolutionsContainer{
+
+  background-color: #2f395045;
+}
+.BusinessSolutionsHead{
+
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #f2f8f9;
+}
+
+.card {
+  width: 90%;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.card1 {
+  width: 100%;
+}
+
+.card p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666;
+}
+
+.card p.ps-small {
+  font-size: 16px;
+}
+.hss-container-image {
+  width: 100px;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: var(--primary-color);
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card1 {
+  display: block;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.card1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: var(--primary-color);
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
+}
+
+.card1:hover:before {
+  transform: scale(21);
+}
+
+.card1:hover p {
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card1:hover h3 {
+  transition: all 0.3s ease-out;
+  color: #fff;
+}
+
+
+/** Start Partners  */
+
+.partners-img{
+  width: 100%;
+}
+.partners-dev{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgba(0, 0, 0, 0.441);
+  border-radius: 15px;
+  height: 100px;
+  margin-bottom: 20px;
+
+}
+
+.partners-dev:hover{
+
+  transform: scale(1.1); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  cursor: pointer; 
+  border-color: #2f3950;
+  cursor: pointer;
+}
+
+
+/* !End Client */
+
+
+
+
+/* start client card */
+
+.Clients-div {
+  border: 1px solid rgba(0, 0, 0, 0.271);
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.partners-logo {
+  width: 60%;
+  transition: transform 0.3s ease;
+}
+
+.Clients-div:hover {
+  border-color: #875b7c;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.Clients-div:hover .partners-logo {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+
+.PartnersContainer{
+  background-color: #2f395036;
+}
+
+
+
+
+
+/* *start Media */
+@media (max-width: 450px) {
+  .video-background {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  .text-overlay {
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.415);
+  }
+  /* ? =========================================================== */
+  .homePageText1 {
+    font-weight: 600;
+    font-size: 15px;
+    color: #113454;
+    line-height: 20px;
+  }
+  .HomePageImg1 {
+    width: 300px;
+  }
+  .zoomTechName {
+    width: 100px;
+  }
+  /* ?=================================================================== */
+  .homePage-section2-img1 {
+    width: 150px;
+    height: 300px;
+  }
+
+  /* ?======================================================================== */
+
+  .homePage-section3-img2 {
+    width: 200px;
+  }
+
+  .home-btns-img {
+    width: 50px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .home-btns-title {
+    font-size: 5px;
+    font-weight: 900;
+  }
+
+  .setion2-video-background {
+    width: 100%;
+    height: 150px;
+  }
+
+  /* ?========================================================== */
+
+  .card {
+    height: 150px;
+    margin-right: 20px;
+  }
+  .hss-container-image {
+    width: 50px;
+  }
+
+  .Clients-div{
+    width: 100% !important;
+  }
+}
+
+
+
+@media (min-width: 451px) and (max-width: 768px) {
+  .video-background {
+    width: 100%;
+    height: 400px;
+    
+  }
+  .text-overlay {
+    color: white;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.293);
+  }
+  /* ? =========================================================== */
+  .homePageText1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .HomePageImg1 {
+    width: 400px;
+  }
+  .zoomTechName-col{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .zoomTechName {
+    width: 150px;
+  }
+  /* ?=================================================================== */
+  .homePage-section2-img1 {
+    width: 200px;
+    height: 400px;
+  }
+
+  /* ?======================================================================== */
+
+  .setion2-video-background {
+    width: 100%;
+    height: 200px;
+  }
+
+  .homePage-section3-img2 {
+    width: 250px;
+  }
+
+  .home-btns-img {
+    width: 70px;
+    margin-bottom: 0px; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .home-btns-title {
+    font-size: 5px;
+    font-weight: 600;
+  }
+
+  /* ?========================================================== */
+
+  .card {
+    height: 200px;
+    margin-right: 20px;
+  }
+  .hss-container-image {
+    width: 70px;
+  }
+  .Clients-div{
+    width: 100% !important;
+  }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+  .video-background {
+    width: 100%;
+    height: 500px;
+    
+  }
+  .text-overlay {
+    color: white;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.293);
+  }
+  /* ? =========================================================== */
+  .homePageText1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .HomePageImg1 {
+    width: 350px;
+  }
+  .zoomTechName-col{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .zoomTechName {
+    width: 200px;
+  }
+  /* ?=================================================================== */
+  .homePage-section2-img1 {
+    width: 220px;
+    height: 600;
+  }
+
+  /* ?======================================================================== */
+
+  .setion2-video-background {
+    width: 100%;
+    height: 400px;
+  }   
+
+  .homePage-section3-img2 {
+    width: 350px;
+  }
+
+  .home-btns-img {
+    width: 100px;
+    
+  }
+
+  .home-btns-title {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  /* ?========================================================== */
+
+  .card {
+    height: 200px;
+    margin-right: 20px;
+  }
+  .hss-container-image {
+    width: 70px;
+  }
+  .Clients-div{
+    width: 100% !important;
+  }
+}
+
+
+
+
+
+
+
+/* ! Start Section-4 (Busnies Solution)  */

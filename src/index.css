@@ -1,0 +1,54 @@
+*{
+    direction: rtl;
+    font-family: "Cairo", sans-serif; 
+    font-weight: 400; 
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .app{
+
+ 
+    background-color: #f3f4f6;
+    
+    
+    }
+
+
+  :root {
+    --primary-color: #113454;
+    --secondary-color: #686f80;
+    --backGround-color: #686f80;
+    --backGround2: #1b1a1a47;
+    --thirdColor:#998c86;
+    
+  }
+
+  .line-rtl{
+    clip-path: polygon(0% 0%, 100% 0%, 0% 63.3%);
+    background-color:#ffffff;
+  }
+  
+  .nav-line-rtl{
+    clip-path: polygon(0% 0%, 100% 0%, 0% 63.3%);
+    background-color:#ffffff;
+  }
+
+
+  .line-rtl{
+    clip-path: polygon(0% 0%, 100% 0%, 0% 63.3%);
+    background-color:#ffffff;
+  }
+  
+  .nav-line-rtl{
+    clip-path: polygon(0% 0%, 100% 0%, 0% 63.3%);
+    background-color:white;
+  }
+  
+  .line-ltr {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 63.3%);
+    background-color:#ffffff;
+   
+    color:#ffffff;
+  }

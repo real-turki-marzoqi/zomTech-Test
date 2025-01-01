@@ -1,0 +1,134 @@
+.footer {
+  background-color: #113454; /* لون خلفية خفيف */
+  padding: 20px 0;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+/* عنوان القسم */
+.footer-title {
+  font-size: 1.5rem;
+  font-weight:900;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* النصوص */
+.footer-link {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #460f30; /* لون عند التمرير */
+}
+
+/* النصوص الإضافية */
+.footer-text {
+  font-size: 0.9rem;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+/* صورة الشعار */
+.footer-logo-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.footer-logo:hover {
+  transform: scale(1.1); /* تكبير الصورة قليلاً عند التمرير */
+}
+
+/* الوسائط المتعددة */
+@media (max-width: 1200px) {
+  .footer-title {
+    font-size: 1.3rem;
+  }
+  .footer-link {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 1.2rem;
+  }
+  .footer-link {
+    font-size: 0.9rem;
+  }
+  .footer-text {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-title {
+    font-size: 1.1rem;
+  }
+  .footer-link {
+    font-size: 0.85rem;
+  }
+  .footer-text {
+    font-size: 0.8rem;
+    text-align: center; /* محاذاة النصوص للمركز */
+  }
+  .footer-logo {
+    width: 80px;
+  }
+}
+
+.footer-socialMedia{
+ 
+ border-top: 1PX solid white;
+}
+
+/* الحاوية الرئيسية للنص */
+.footer-rights {
+  text-align: center; /* محاذاة النص للوسط */
+  margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+ 
+}
+
+/* النص */
+.rights-text {
+  font-size: 2rem; /* الحجم الأساسي للنص */
+  color: #ffffff; /* لون رمادي */
+  font-weight: 400;
+  line-height: 1.5;
+  direction: rtl;
+  margin-top: 100px;
+}
+
+/* النص عند الشاشات الأكبر */
+@media (min-width: 768px) {
+  .rights-text {
+    font-size: 1.1rem; /* تكبير النص قليلاً */
+  }
+}
+
+/* النص عند الشاشات الأصغر */
+@media (max-width: 576px) {
+  .rights-text {
+    font-size: 0.6rem; /* تصغير النص للشاشات الصغيرة */
+    padding: 5px;
+  }
+}
