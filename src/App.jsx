@@ -5,11 +5,10 @@ import HomePage from "./Pages/homePage.jsx";
 import Packages from "./Pages/packages.jsx";
 import ScrollToTop from "./Components/utils/ScrollToTop";
 import AnnualContracts from "./Pages/annualContracts";
+import NotFoundPage from './Pages/notFoundPage.jsx'
 
-/* import WhyVisionFuturePage from "./Pages/whyVisionFuturePage";
-import BlogPage from "./Pages/blogPage";
-import Packages from "./Pages/packages";
- */
+
+
 
 /* import WhoAreWe from "./Pages/whoAreWe.js"; */
 
@@ -27,6 +26,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/packages" element={<Packages />} />
         <Route path="/annualContracts" element={<AnnualContracts />} />
+        <Route path="/*" element={<NotFoundPage />} />
         {/*  <Route path="/whyVisionFuture" element={<WhyVisionFuturePage />} />
       
         <Route path="/blog" element={<BlogPage />} />
