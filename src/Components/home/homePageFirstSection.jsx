@@ -2,7 +2,7 @@ import Container from "react-bootstrap/esm/Container";
 import RoW from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import homePageImg1 from "../../Images/diverse/homePageImage1.gif";
-import zoomTechName from "../../Images/diverse/zoomTechName.png";
+import zoomTechName from "../../Images/diverse/ZoomtechName.png";
 
 
 const HomePageFirstSection = () => {
