@@ -1,37 +1,40 @@
-
-import { Col, Container , Row } from 'react-bootstrap'
-import notFounfImg from '../images/diverse/404 Error.gif'
+import { Col, Container, Row } from "react-bootstrap";
+import notFounfImg from "../images/diverse/404 Error.gif";
+import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
   return (
     <>
-    <Container className='mt-2 mb-2 notFoundPageContainer'>
+      <Container className="mt-2 mb-2 notFoundPageContainer">
         <Row>
-            <Col >
-            <p className='notFoundPageHead'>الصفحة غير موجودة</p>
-            </Col>
-      
+          <Col>
+            <p className="notFoundPageHead">الصفحة غير موجودة</p>
+          </Col>
         </Row>
 
         <Row>
-            <Col>
-        <img className='notFoundPageImg' src={notFounfImg} alt='not found page img' />
-            </Col>
-      
+          <Col>
+            <img
+              className="notFoundPageImg"
+              src={notFounfImg}
+              alt="not found page img"
+            />
+          </Col>
         </Row>
-
 
         <Row>
-            <Col>
-            <button className='notFoundPageBtn'><i style={{fontSize:"20px"}} className="fa-solid fa-house"></i> </button>
-            </Col>
+          <Col>
+          <Link className="custom-link" to={'/.'}>
       
+            <button className="notFoundPageBtn">
+              <i style={{ fontSize: "20px" }} className="fa-solid fa-house"></i>{" "}
+            </button>
+            </Link>
+          </Col>
         </Row>
-    </Container>
-
-      
+      </Container>
     </>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;

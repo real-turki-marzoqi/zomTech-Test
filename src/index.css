@@ -44,3 +44,72 @@
 
   color: #ffffff;
 }
+
+
+.notFoundPageContainer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notFoundPageImg{
+
+  width: 400px;
+}
+
+.notFoundPageHead{
+
+  font-size: 30PX;
+  font-weight: 900;
+}
+
+.notFoundPageBtn {
+  margin-top: 50px;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #113454;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.notFoundPageBtn:hover {
+  background-color: #1e1b52;
+  transform: scale(1.1);
+}
+
+.notFoundPageBtn:active {
+  transform: scale(0.95);
+}
+
+.notFoundPageBtn.clicked {
+  background-color: #0e0715;
+  color: #f9f9f9;
+  transform: scale(1.2);
+}
+
+@media(max-width:450px){
+
+  .notFoundPageImg{
+
+    width: 200px;
+  }
+  .notFoundPageHead{
+
+    font-size: 20PX;
+    font-weight: 900;
+  }
+  .notFoundPageBtn{
+
+    width: 90px;
+    height: 30px;
+
+  }
+
+
+}
