@@ -3,10 +3,10 @@ import { Row, Container, Col } from "react-bootstrap";
 import BtnsSectionCard from "./btnsSectionCard";
 import { Link } from "react-router-dom";
 
-import packages from '../../images/diverse/pakacgesbtn.svg'
-import connectwithSystems from '../../images/diverse/connectWithSystemsBtn.svg'
-import workprocces from '../../images/diverse/workProccesBtn.svg'
-import blogbtn from '../../images/diverse/blogBtn.svg'
+import packages from '../../Images/diverse/pakacgesbtn.svg'
+import connectwithSystems from '../../Images/diverse/connectWithSystemsBtn.svg'
+import workprocces from '../../Images/diverse/workProccesBtn.svg'
+import blogbtn from '../../Images/diverse/blogBtn.svg'
 
 
 

@@ -1,32 +1,32 @@
 import { Row, Container, Col } from "react-bootstrap";
 import CilentsCard from "./cilentsCard";
 
-import image1 from "../../images/costumersLogos/1.png";
+import image1 from "../../Images/costumersLogos/1.png";
 
-import image5 from "../../images/costumersLogos/5.png";
-import image6 from "../../images/costumersLogos/6.png";
-import image7 from "../../images/costumersLogos/7.png";
-import image8 from "../../images/costumersLogos/8.png";
+import image5 from "../../Images/costumersLogos/5.png";
+import image6 from "../../Images/costumersLogos/6.png";
+import image7 from "../../Images/costumersLogos/7.png";
+import image8 from "../../Images/costumersLogos/8.png";
 
-import image13 from "../../images/costumersLogos/13.png";
-import image14 from "../../images/costumersLogos/14.png";
-import image15 from "../../images/costumersLogos/15.png";
-import image16 from "../../images/costumersLogos/16.png";
-import image18 from "../../images/costumersLogos/18.png";
-import image19 from "../../images/costumersLogos/19.png";
-import image20 from "../../images/costumersLogos/20.png";
-import image21 from "../../images/costumersLogos/21.png";
-import image23 from "../../images/costumersLogos/23.png";
-import image24 from "../../images/costumersLogos/24.png";
-import image25 from "../../images/costumersLogos/25.png";
-import image26 from "../../images/costumersLogos/26.png";
-import image30 from "../../images/costumersLogos/30.jpeg";
-import image31 from "../../images/costumersLogos/31.png";
-import image32 from "../../images/costumersLogos/32.png";
-import image33 from "../../images/costumersLogos/33.png";
-import image34 from "../../images/costumersLogos/34.png";
-import image35 from "../../images/costumersLogos/35.png";
-import image36 from "../../images/costumersLogos/36.png";
+import image13 from "../../Images/costumersLogos/13.png";
+import image14 from "../../Images/costumersLogos/14.png";
+import image15 from "../../Images/costumersLogos/15.png";
+import image16 from "../../Images/costumersLogos/16.png";
+import image18 from "../../Images/costumersLogos/18.png";
+import image19 from "../../Images/costumersLogos/19.png";
+import image20 from "../../Images/costumersLogos/20.png";
+import image21 from "../../Images/costumersLogos/21.png";
+import image23 from "../../Images/costumersLogos/23.png";
+import image24 from "../../Images/costumersLogos/24.png";
+import image25 from "../../Images/costumersLogos/25.png";
+import image26 from "../../Images/costumersLogos/26.png";
+import image30 from "../../Images/costumersLogos/30.jpeg";
+import image31 from "../../Images/costumersLogos/31.png";
+import image32 from "../../Images/costumersLogos/32.png";
+import image33 from "../../Images/costumersLogos/33.png";
+import image34 from "../../Images/costumersLogos/34.png";
+import image35 from "../../Images/costumersLogos/35.png";
+import image36 from "../../Images/costumersLogos/36.png";
 
 const ClientsContainer = () => {
   return (

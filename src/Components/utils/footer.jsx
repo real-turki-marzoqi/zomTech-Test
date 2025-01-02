@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "../../Styles/footer.css";
 import logo from "../../images/diverse/logo.png";
+
 import { Link } from "react-router-dom";
 import SocialMedia from "./socialMedia";
 
