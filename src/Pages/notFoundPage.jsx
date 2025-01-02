@@ -33,6 +33,7 @@ const NotFoundPage = () => {
           </Col>
         </Row>
       </Container>
+      
     </>
   );
 };
