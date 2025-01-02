@@ -6,6 +6,7 @@ import image2 from "../../Images/Partners/p3.png";
 import image3 from "../../Images/Partners/p4.png";
 import image4 from "../../Images/Partners/p5.png";
 import image5 from "../../Images/Partners/p6.png";
+
 import image6 from "../../Images/Partners/p7.png";
 import image7 from "../../Images/Partners/p8.png";
 import image8 from "../../Images/Partners/p9.png";
