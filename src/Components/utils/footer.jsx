@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer">
       <Container>
         <Row>
-          {/* روابط مهمة */}
+          {/* روابط مهمة*/}
           <Col xl={4} lg={4} md={4} sm={12} xs={12} className="footer-section">
             <h4 className="footer-title">روابط مهمة</h4>
 
