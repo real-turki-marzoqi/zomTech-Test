@@ -6,25 +6,24 @@ import image2 from "../../Images/Partners/p3.png";
 import image3 from "../../Images/Partners/p4.png";
 import image4 from "../../Images/Partners/p5.png";
 import image5 from "../../Images/Partners/p6.png";
-
 import image6 from "../../Images/Partners/p7.png";
 import image7 from "../../Images/Partners/p8.png";
 import image8 from "../../Images/Partners/p9.png";
 import image9 from "../../Images/Partners/p10.png";
 import image10 from "../../Images/Partners/p11.png";
-import image11 from "../../Images/Partners/p12.png";
-import image12 from "../../Images/Partners/p13.png";
-import image13 from "../../Images/Partners/p14.png";
-import image14 from "../../Images/Partners/p15.png";
-import image15 from "../../Images/Partners/p16.png";
-import image16 from "../../Images/Partners/p17.png";
-import image17 from "../../Images/Partners/p18.png";
-import image18 from "../../Images/Partners/p19.png";
-import image19 from "../../Images/Partners/p20.png";
-import image20 from "../../Images/Partners/p21.png";
-import image21 from "../../Images/Partners/p22.png";
-import image22 from "../../Images/Partners/p23.png";
-import image23 from "../../Images/Partners/p24.png";
+import image11 from "../../Images/Partners/P12.png";
+import image12 from "../../Images/Partners/P13.png";
+import image13 from "../../Images/Partners/P14.png";
+import image14 from "../../Images/Partners/P15.png";
+import image15 from "../../Images/Partners/P16.png";
+import image16 from "../../Images/Partners/P17.png";
+import image17 from "../../Images/Partners/P18.png";
+import image18 from "../../Images/Partners/P19.png";
+import image19 from "../../Images/Partners/P20.png";
+import image20 from "../../Images/Partners/P21.png";
+import image21 from "../../Images/Partners/P22.png";
+import image22 from "../../Images/Partners/P23.png";
+import image23 from "../../Images/Partners/P24.png";
 
 const PartnersContainer = () => {
   return (
