@@ -4,6 +4,7 @@ import Col from "react-bootstrap/esm/Col";
 import homePageImg1 from "../../Images/diverse/homePageImage1.gif";
 import zoomTechName from "../../Images/diverse/zoomTechName.png";
 
+
 const HomePageFirstSection = () => {
   return (
     <Container>
