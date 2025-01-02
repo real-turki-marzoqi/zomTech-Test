@@ -43,16 +43,14 @@ const NavBar = () => {
                 <Link className="custom-link" to="/packages">
                   <p className="link-text">باقاتنا</p>
                 </Link>
-                <Link className="custom-link" to="/blog">
-                  <p className="link-text">المدونة</p>
-                </Link>
+
                 <Link className="custom-link" to="/whoAreWe">
                   <p className="link-text">من نحن</p>
                 </Link>
                 <p>
                   <a
                     className="custom-link"
-                    href="https://visionfuture.odoo.com/ "
+                    href="https://zoomtechsa.odoo.com/ "
                   >
                     المتجر الإلكتروني
                   </a>
