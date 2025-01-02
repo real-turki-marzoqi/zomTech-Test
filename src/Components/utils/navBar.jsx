@@ -6,6 +6,7 @@ import saVision from "../../images/diverse/SaVision.png";
 import "../../Styles/navBar.css";
 import { Link } from "react-router-dom";
 
+/* a */
 const NavBar = () => {
   return (
     <>
