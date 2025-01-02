@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import notFounfImg from "../images/diverse/404 Error.gif";
+import notFounfImg from "../Images/diverse/404 Error.gif";
 import { Link } from "react-router-dom";
 
 const NotFoundPage = () => {
