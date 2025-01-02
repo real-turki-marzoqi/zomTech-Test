@@ -1,4 +1,3 @@
-
 import { Col, Container, Row } from "react-bootstrap";
 import "../../Styles/footer.css";
 import logo from "../../images/diverse/logo.png";
@@ -13,13 +12,6 @@ const Footer = () => {
           {/* روابط مهمة */}
           <Col xl={4} lg={4} md={4} sm={12} xs={12} className="footer-section">
             <h4 className="footer-title">روابط مهمة</h4>
-
-            <a className="custom-link" href="https://www.odoo.com/ar/partners/shrk-mstqbl-lrwy-hd-mjmw-shrkt-mhmd-shrbtly-ltjry-15994410?country_id=185">
-                <p className="footer-link">
-                مستقبل الرؤيا شريك رسمي معتمد لأودو
-                </p>
-                 
-                </a>
 
             <Link className="custom-link" to="/freeConsultation">
               <p className="footer-link"> احصل على إستشارة مجانية</p>
@@ -48,95 +40,91 @@ const Footer = () => {
           </Col>
 
           {/* روابط سريعة */}
-        {/* روابط سريعة */}
-<Col xl={4} lg={4} md={4} sm={12} xs={12} className="footer-section">
-  <h4 className="footer-title">تطبيقات أودو</h4>
-  <Row>
-    {/* العمود الأول */}
-    <Col md={6} sm={12}>
-      <Link className="custom-link" to="/accounting">
-        <p className="footer-link"> المحاسبة </p>
-      </Link>
-      <Link className="custom-link" to="/knowledge">
-        <p className="footer-link"> المعرفة </p>
-      </Link>
-      <Link className="custom-link" to="/signature">
-        <p className="footer-link"> التوقيع الإلكتروني </p>
-      </Link>
-      <Link className="custom-link" to="/crm">
-        <p className="footer-link"> إدارة علاقات العملاء</p>
-      </Link>
-      <Link className="custom-link" to="/studio">
-        <p className="footer-link">الإستديو </p>
-      </Link>
-      <Link className="custom-link" to="/subscription">
-        <p className="footer-link">الإشتراكات </p>
-      </Link>
-      <Link className="custom-link" to="/rent">
-        <p className="footer-link">التأجير </p>
-      </Link>
-      <Link className="custom-link" to="/PointOfSale">
-        <p className="footer-link">نقطة البيع </p>
-      </Link>
-      <Link className="custom-link" to="/discuss">
-        <p className="footer-link">المناقشة </p>
-      </Link>
-      <Link className="custom-link" to="/document">
-        <p className="footer-link">المستندات </p>
-      </Link>
-      <Link className="custom-link" to="/project">
-        <p className="footer-link">المشروع </p>
-      </Link>
-      <Link className="custom-link" to="/webSite">
-        <p className="footer-link"> التوقيع الإلكتروني </p>
-      </Link>
-    
-    </Col>
+          {/* روابط سريعة */}
+          <Col xl={4} lg={4} md={4} sm={12} xs={12} className="footer-section">
+            <h4 className="footer-title">تطبيقات أودو</h4>
+            <Row>
+              {/* العمود الأول */}
+              <Col md={6} sm={12}>
+                <Link className="custom-link" to="/accounting">
+                  <p className="footer-link"> المحاسبة </p>
+                </Link>
+                <Link className="custom-link" to="/knowledge">
+                  <p className="footer-link"> المعرفة </p>
+                </Link>
+                <Link className="custom-link" to="/signature">
+                  <p className="footer-link"> التوقيع الإلكتروني </p>
+                </Link>
+                <Link className="custom-link" to="/crm">
+                  <p className="footer-link"> إدارة علاقات العملاء</p>
+                </Link>
+                <Link className="custom-link" to="/studio">
+                  <p className="footer-link">الإستديو </p>
+                </Link>
+                <Link className="custom-link" to="/subscription">
+                  <p className="footer-link">الإشتراكات </p>
+                </Link>
+                <Link className="custom-link" to="/rent">
+                  <p className="footer-link">التأجير </p>
+                </Link>
+                <Link className="custom-link" to="/PointOfSale">
+                  <p className="footer-link">نقطة البيع </p>
+                </Link>
+                <Link className="custom-link" to="/discuss">
+                  <p className="footer-link">المناقشة </p>
+                </Link>
+                <Link className="custom-link" to="/document">
+                  <p className="footer-link">المستندات </p>
+                </Link>
+                <Link className="custom-link" to="/project">
+                  <p className="footer-link">المشروع </p>
+                </Link>
+                <Link className="custom-link" to="/webSite">
+                  <p className="footer-link"> التوقيع الإلكتروني </p>
+                </Link>
+              </Col>
 
-    {/* العمود الثاني */}
-    <Col md={6} sm={12}>
-     
-      <Link className="custom-link" to="/socialMarketing">
-        <p className="footer-link"> التسويق الإجتماعي </p>
-      </Link>
-      <Link className="custom-link" to="/emailMarketing">
-        <p className="footer-link"> التسويق عبر البريد </p>
-      </Link>
-      <Link className="custom-link" to="/purchases">
-        <p className="footer-link"> المشتريات </p>
-      </Link>
-      <Link className="custom-link" to="/inventory">
-        <p className="footer-link"> المخزون </p>
-      </Link>
-      <Link className="custom-link" to="/manufacturing">
-        <p className="footer-link"> التصنيع </p>
-      </Link>
-      <Link className="custom-link" to="/sales">
-        <p className="footer-link"> المبيعات </p>
-      </Link>
-      <Link className="custom-link" to="/hr">
-        <p className="footer-link"> الموارد البشرية </p>
-      </Link>
-      <Link className="custom-link" to="/dashboard">
-        <p className="footer-link"> لوحة البيانات </p>
-      </Link>
-      <Link className="custom-link" to="/timeSheets">
-        <p className="footer-link">الجداول الزمنية </p>
-      </Link>
-      <Link className="custom-link" to="/fieldservice">
-        <p className="footer-link">الخدمات الميدانية </p>
-      </Link>
-      <Link className="custom-link" to="/planning">
-        <p className="footer-link">التخطيط </p>
-      </Link>
-      <Link className="custom-link" to="/helpDesk">
-        <p className="footer-link">مكتب المساعدة </p>
-      </Link>
-  
-    </Col>
-  </Row>
-</Col>
-
+              {/* العمود الثاني */}
+              <Col md={6} sm={12}>
+                <Link className="custom-link" to="/socialMarketing">
+                  <p className="footer-link"> التسويق الإجتماعي </p>
+                </Link>
+                <Link className="custom-link" to="/emailMarketing">
+                  <p className="footer-link"> التسويق عبر البريد </p>
+                </Link>
+                <Link className="custom-link" to="/purchases">
+                  <p className="footer-link"> المشتريات </p>
+                </Link>
+                <Link className="custom-link" to="/inventory">
+                  <p className="footer-link"> المخزون </p>
+                </Link>
+                <Link className="custom-link" to="/manufacturing">
+                  <p className="footer-link"> التصنيع </p>
+                </Link>
+                <Link className="custom-link" to="/sales">
+                  <p className="footer-link"> المبيعات </p>
+                </Link>
+                <Link className="custom-link" to="/hr">
+                  <p className="footer-link"> الموارد البشرية </p>
+                </Link>
+                <Link className="custom-link" to="/dashboard">
+                  <p className="footer-link"> لوحة البيانات </p>
+                </Link>
+                <Link className="custom-link" to="/timeSheets">
+                  <p className="footer-link">الجداول الزمنية </p>
+                </Link>
+                <Link className="custom-link" to="/fieldservice">
+                  <p className="footer-link">الخدمات الميدانية </p>
+                </Link>
+                <Link className="custom-link" to="/planning">
+                  <p className="footer-link">التخطيط </p>
+                </Link>
+                <Link className="custom-link" to="/helpDesk">
+                  <p className="footer-link">مكتب المساعدة </p>
+                </Link>
+              </Col>
+            </Row>
+          </Col>
 
           {/* معلومات الاتصال */}
           <Col xl={4} lg={4} md={4} sm={12} xs={12} className="footer-section">
@@ -183,8 +171,8 @@ const Footer = () => {
             className="footer-rights"
           >
             <p className="rights-text">
-              All rights reserved to ZoomTech © 2024 | جميع الحقوق محفوظة
-              لشركة زوم تك
+              All rights reserved to ZoomTech © 2024 | جميع الحقوق محفوظة لشركة
+              زوم تك
             </p>
           </Col>
         </Row>

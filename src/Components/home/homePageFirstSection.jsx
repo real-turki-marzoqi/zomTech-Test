@@ -8,16 +8,7 @@ const HomePageFirstSection = () => {
   return (
     <Container>
       <RoW className="mt-2 mb-2 homePageFirstRow ">
-        <Col
-          className="zoomTechName-col "
-          xl={12}
-          lg={12}
-          md={12}
-          sm={12}
-          xs={12}
-        >
-          <img className="zoomTechName" src={zoomTechName} />
-        </Col>
+     
 
         <Col
           className="homePageSection-1PageText-1 centerHomePage"
@@ -27,8 +18,9 @@ const HomePageFirstSection = () => {
           sm={12}
           xs={12}
         >
+          <img className="zoomTechName" src={zoomTechName} />
           <p className="homePageText1">
-            {" "}
+           
             نقدم لكم أحدث الحلول الأمنية المتكاملة لحماية ممتلكاتكم وضمان سلامة
             أعمالكم. مع تقنيات متقدمة وخبرات متميزة، نوفر أنظمة مراقبة حديثة،
             أنظمة تحكم بالدخول، واستشارات أمنية مصممة خصيصًا لتلبية احتياجاتكم.

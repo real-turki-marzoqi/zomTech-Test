@@ -1,0 +1,130 @@
+.ac-head-text {
+  font-size: 30px;
+  font-weight: 900;
+  color: #113454;
+}
+.ac-head-img {
+  width: 400px;
+}
+.ac-head-div {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.ac-second-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ac-second-head-text {
+  font-size: 30px;
+  font-weight: 900;
+  color: #113454;
+}
+.ac-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0a1c2d;
+}
+
+/* فاصل عصري بين الفقرات */
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0; /* مسافة حول الفاصل */
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    #4d3848,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.section-divider span {
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d3848;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.section-divider span:hover {
+  color: #56222c;
+  transform: scale(1.1);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+@media (max-width: 450px) {
+  .ac-head-img {
+    width: 250px !important;
+  }
+  .ac-head-text {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .ac-head-img {
+    width: 300px;
+  }
+
+  .ac-second-head-text {
+    font-size: 19px;
+    font-weight: 900;
+  }
+  .ac-text {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 768px) {
+  .ac-head-text {
+    font-size: 25px;
+    font-weight: 900;
+  }
+  .ac-head-img {
+    width: 300px;
+  }
+
+  .ac-second-head-text {
+    font-size: 24px;
+    font-weight: 900;
+  }
+  .ac-text {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .ac-head-text {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .ac-head-img {
+    width: 300px;
+  }
+
+  .ac-second-head-text {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .ac-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+}

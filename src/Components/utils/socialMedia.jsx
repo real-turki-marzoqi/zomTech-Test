@@ -1,4 +1,3 @@
-
 import { Row, Col, Container } from "react-bootstrap";
 import "../../Styles/socialMedia.css";
 

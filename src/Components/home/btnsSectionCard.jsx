@@ -3,9 +3,11 @@
 
 
 
-const BtnsSectionCard = ({ text, icon }) => {
+const BtnsSectionCard = ({ text, icon ,lnk}) => {
   return (
     <>
+
+<a className="custom-link" href={lnk}>
 
 
       <div className="home-btns-main-div">
@@ -14,7 +16,7 @@ const BtnsSectionCard = ({ text, icon }) => {
         <p className="home-btns-title">{text}</p>
 
       </div>
- 
+      </a>
     </>
   );
 };

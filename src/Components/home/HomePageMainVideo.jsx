@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import Video1 from "../../videos/homePageFirstVideo.mp4";
-import video2 from "../../videos/homePage2.mp4";
+import video4 from "../../videos/homePage2.mp4";
 import video3 from "../../videos/homePageSecondVideo.mp4";
-import video4 from "../../videos/homePage4.mp4";
+import video2 from "../../videos/homePage4.mp4";
 
 
 const HomePageMainVideo = () => {

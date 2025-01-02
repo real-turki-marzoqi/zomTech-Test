@@ -1,190 +1,157 @@
 /* * Start NavBar */
-:root {
-    --primary-color: #113454;
-    --secondary-color: #686f80;
-    --backGround-color: #686f80;
-    --backGround2: #1b1a1a47;
-    --thirdColor:#998c86;
-    
-  }
+
 .NavBar-main {
-    background-color: var(--primary-color);
-  }
-  .logo {
-    height: 90px;
-    width: auto;
-  }
-  .sa-logo{
-    height: 50px;
-    width: auto;
-    margin-right: 20px;
-  }
-  .navbar-links {
-    color: var(--primary-color) !important;
-  }
-  
-  
-  .nav-links-container {
-    display: flex;
-    gap: 20px; /* مسافة بين الروابط */
-    justify-content: center; /* تمركز الروابط */
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
+  background-color: var(--primary-color);
+}
+.logo {
+  height: 90px;
+  width: auto;
+}
+.sa-logo {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+.navbar-links {
+  color: var(--primary-color) !important;
+}
+
+.nav-links-container {
+  display: flex;
+  gap: 20px; /* مسافة بين الروابط */
+  justify-content: center; /* تمركز الروابط */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.custom-link:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 480px) {
   .custom-link {
-    text-decoration: none;
-    color: white;
-    font-size: 13px;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 10px;
+
+    font-size: 12px;
   }
-  
-  .custom-link:hover {
-    color: var(--secondary-color);
+
+  .nav-links-container {
+    align-items: start;
   }
-  
-  @media (max-width: 480px) {
-    .custom-link {
-      padding: 10px;
-  
-      font-size: 12px;
-    }
-  
-    .nav-links-container {
-      align-items: start;
-    }
-  
-    .logo {
-      height: 50px; 
-    }
+
+  .logo {
+    height: 50px;
   }
-  
-  @media (min-width: 481px) and (max-width: 768px) {
-    .custom-link {
-      padding: 10px;
-      font-size: 15px;
-    }
-  
-    
-  
-    .logo {
-      height: 60px; /* تصغير حجم الشعار */
-    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .custom-link {
+    padding: 10px;
+    font-size: 15px;
   }
-  
-  @media (min-width: 769px) and (max-width: 1000px) {
-    .custom-link {
-      padding: 20px;
-      font-size: 15px;
-    }
-  
-    .nav-links-container {
-      align-items: center;
-    }
-  
-    .logo {
-      height: 70px;
-    }
+
+  .logo {
+    height: 60px; /* تصغير حجم الشعار */
   }
-  
-  
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  .custom-link {
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .nav-links-container {
+    align-items: center;
+  }
+
+  .logo {
+    height: 70px;
+  }
+}
+
+.navbar-center-text-container {
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-center-text {
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(248, 250, 252);
+  margin: 5px 0; /* إضافة تباعد بسيط بين العناصر إن احتجت */
+}
+
+@media (max-width: 480px) {
   .navbar-center-text-container {
-    width: 500px;
-  
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
-  
+
   .navbar-center-text {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 900;
     color: rgb(248, 250, 252);
-    margin: 5px 0; /* إضافة تباعد بسيط بين العناصر إن احتجت */
   }
-  
-  
-  @media (max-width: 480px) {
-  
-    .navbar-center-text-container{
-  
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .navbar-center-text{
-      
-        font-size: 14px;
-        font-weight: 900;
-        color: rgb(248, 250, 252);
-      
-      }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar-center-text-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
-  
-  @media (min-width: 481px) and (max-width: 768px) {
-  
-    .navbar-center-text-container{
-  
-      
-       
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .navbar-center-text{
-    
-      font-size: 16px;
-      font-weight: 900;
-      color: rgb(248, 250, 252);
-    
-    }
-  
+
+  .navbar-center-text {
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(248, 250, 252);
   }
-  
-  
-  @media (min-width: 769px) and (max-width: 1200px) {
-  
-    .navbar-center-text-container{
-  
-      
-       
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .navbar-center-text{
-    
-      font-size: 17px;
-      font-weight: 900;
-      color: rgb(248, 250, 252);
-    
-    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .navbar-center-text-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
-  
-  /* إزالة أو تغيير لون الـ border الخاص بزر Navbar.Toggle */
-  .custom-navbar-toggle {
-    border: 1px solid white !important; /* تغيير لون الـ border إلى الأبيض */
-    background-color: transparent; /* إزالة أي خلفية */
-    outline: none; /* إزالة التحديد عند النقر */
+
+  .navbar-center-text {
+    font-size: 17px;
+    font-weight: 900;
+    color: rgb(248, 250, 252);
   }
-  
-  /* استهداف الأيقونة وتغييرها إلى اللون الأبيض */
-  .custom-navbar-toggle .navbar-toggler-icon {
-    filter: brightness(0) invert(1);
-  }
-  
-  .navbar-second-center-text{
-    color: aliceblue;
-  }
-  
-  
-  
+}
+
+/* إزالة أو تغيير لون الـ border الخاص بزر Navbar.Toggle */
+.custom-navbar-toggle {
+  border: 1px solid white !important; /* تغيير لون الـ border إلى الأبيض */
+  background-color: transparent; /* إزالة أي خلفية */
+  outline: none; /* إزالة التحديد عند النقر */
+}
+
+/* استهداف الأيقونة وتغييرها إلى اللون الأبيض */
+.custom-navbar-toggle .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-second-center-text {
+  color: aliceblue;
+}

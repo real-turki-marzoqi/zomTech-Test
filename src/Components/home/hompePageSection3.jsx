@@ -28,16 +28,16 @@ const HompePageSection3 = () => {
         <RoW>
           <Col
             className="homePage-section3-img3-col"
-            xl={5}
-            lg={5}
-            md={5}
-            sm={5}
-            xs={5}
+            xl={9}
+            lg={9}
+            md={8}
+            sm={7}
+            xs={7}
           >
             <BtnsSectionContainer />
           </Col>
 
-          <Col xl={3} lg={3} md={3} sm={3} xs={3}>
+          <Col xl={3} lg={3} md={4} sm={5} xs={5}>
             <img className="homePage-section2-img1" src={img1} />
           </Col>
         </RoW>

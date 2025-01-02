@@ -27,19 +27,20 @@ const BtnsSectionContainer = () => {
     </Col>
 
     <Col className="" xl={3} lg={6} md={6} sm={6} xs={6}>
-      <Link className="custom-link" to={"/ConnectingToSystems"}>
+     
         <BtnsSectionCard
           icon={connectwithSystems}
-          text={"الربط مع الأنظمة"}
+          text={"المنتجات"}
+          lnk={"https://zoomtechsa.odoo.com/shop"}
         />
-      </Link>
+   
     </Col>
 
     <Col className=" " xl={3} lg={6} md={6} sm={6} xs={6}>
-      <Link className="custom-link" to={"/workProcess"}>
+      <Link className="custom-link" to={"/annualContracts"}>
         <BtnsSectionCard
           icon={workprocces}
-          text={"آلية العمل"}
+          text={"العقود السنوية"}
         />
       </Link>
     </Col>
@@ -48,7 +49,7 @@ const BtnsSectionContainer = () => {
       <Link className="custom-link" to={"/blog"}>
         <BtnsSectionCard
           icon={blogbtn}
-          text={"المدونة"}
+          text={"الخدمات الميدانية"}
         />
       </Link>
     </Col>

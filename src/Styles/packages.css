@@ -1,0 +1,74 @@
+.p-main-image {
+  width: 200px;
+}
+.p-head {
+  font-size: 30px;
+  font-weight: 900;
+  color: #2f3950;
+}
+
+.p-head-col {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.p-imgs {
+  width: 300px;
+  border: solid #2f39504d;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out; /* إضافة تأثير السلاسة */
+}
+
+.p-imgs:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-color: #2f3950;
+}
+
+.p-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p-title {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 20px;
+  color: #2f3950;
+}
+
+@media (max-width: 450px) {
+  .p-main-image {
+    width: 100px;
+  }
+  .p-head {
+    font-size: 25px;
+  }
+
+  .p-imgs {
+    width: 200px;
+  }
+  .p-title {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 768px) {
+  .p-main-image {
+    width: 150px;
+  }
+  .p-head {
+    font-size: 28px;
+  }
+
+  .p-imgs {
+    width: 250px;
+  }
+  .p-title {
+    font-size: 18px;
+  }
+}

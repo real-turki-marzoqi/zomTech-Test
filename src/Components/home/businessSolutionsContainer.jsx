@@ -20,7 +20,7 @@ const BusinessSolutionsContainer = () => {
         <Row>
           <p className="BusinessSolutionsHead">
             {" "}
-            الحلول الأمنية <i className="fa-solid fa-shield-halved"></i>
+             الحلول الأمنية والتقنية <i className="fa-solid fa-shield-halved"></i>
           </p>
         </Row>
         <Row style={{}}>

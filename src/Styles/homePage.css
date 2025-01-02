@@ -33,7 +33,6 @@
   line-height: 60px;
   color: #113454;
   margin-top: 0 !important;
-
 }
 
 .homePageText1:hover {
@@ -45,25 +44,22 @@
 
 .zoomTechName {
   width: 150px;
-
 }
 .homePageFirstRow {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.centerHomePage{
+.centerHomePage {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
-.home-page-section-3-img-col{
-
+.home-page-section-3-img-col {
   display: flex;
   justify-content: left !important;
   align-items: center;
-
 }
 
 /* ! Start First Section  */
@@ -72,10 +68,11 @@
 .homePage-section2-img1 {
   width: 100%;
   height: 400px;
+
+  transition: transform 0.5s ease, box-shadow 0.5s ease; /* إضافة تأثيرات عند الحركة */
 }
 
 .homePageSection2 {
-  background-color: #686f80;
   margin-top: 0;
 }
 .setion2-video-background {
@@ -89,17 +86,29 @@
 
 /* * Start Section-3  */
 
-/* Section 3 start  */
+.homePage-section3-img2-col:hover .homePage-section3-img2 {
+  transform: rotateX(15deg) rotateY(-15deg) scale(1.1); /* الحركة ثلاثية الأبعاد */
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4); /* إضافة ظل */
+}
+
+.homePage-section2-img1:hover {
+  transform: rotateX(15deg) rotateY(-15deg) scale(1.1); /* الحركة ثلاثية الأبعاد */
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4); /* إضافة ظل */
+}
+
 .homePageSection3 {
   background-color: #f3f4f6;
 }
 .homePage-section3-img2 {
-  width: 300px;
+  width: 200px;
+
+  transition: transform 0.5s ease, box-shadow 0.5s ease; /* إضافة تأثيرات عند الحركة */
 }
 .homePage-section3-img2-col {
   display: flex;
   justify-content: center;
   align-items: center;
+  perspective: 1000px; /* لتفعيل التأثير ثلاثي الأبعاد */
 }
 .homePage-section3-img3-col {
   display: flex;
@@ -131,23 +140,21 @@
 .home-btns-title {
   font-size: 15px;
   font-weight: 900;
-  color: #113454  ;
+  color: #113454;
 }
 
 /* ! End Section-3  */
 
 /* * Start Section-4 (Busnies Solution)  */
 
-.BusinessSolutionsContainer{
-
+.BusinessSolutionsContainer {
   background-color: #2f395045;
 }
-.BusinessSolutionsHead{
-
+.BusinessSolutionsHead {
   margin-top: 50px;
   font-size: 20px;
   font-weight: 900;
-  color: #f2f8f9;
+  color: #113454;
 }
 
 .card {
@@ -239,13 +246,12 @@
   color: #fff;
 }
 
-
 /** Start Partners  */
 
-.partners-img{
-  width: 100%;
+.partners-img {
+  width: 70%;
 }
-.partners-dev{
+.partners-dev {
   margin-top: 15px;
   display: flex;
   justify-content: center;
@@ -254,23 +260,17 @@
   border-radius: 15px;
   height: 100px;
   margin-bottom: 20px;
-
 }
 
-.partners-dev:hover{
-
-  transform: scale(1.1); 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
-  cursor: pointer; 
+.partners-dev:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
   border-color: #2f3950;
   cursor: pointer;
 }
 
-
 /* !End Client */
-
-
-
 
 /* start client card */
 
@@ -302,14 +302,9 @@
   filter: brightness(1.2);
 }
 
-
-.PartnersContainer{
+.PartnersContainer {
   background-color: #2f395036;
 }
-
-
-
-
 
 /* *start Media */
 @media (max-width: 450px) {
@@ -338,8 +333,8 @@
   }
   /* ?=================================================================== */
   .homePage-section2-img1 {
-    width: 150px;
-    height: 300px;
+    width: 120px;
+    height: 200px;
   }
 
   /* ?======================================================================== */
@@ -375,18 +370,15 @@
     width: 50px;
   }
 
-  .Clients-div{
+  .Clients-div {
     width: 100% !important;
   }
 }
-
-
 
 @media (min-width: 451px) and (max-width: 768px) {
   .video-background {
     width: 100%;
     height: 400px;
-    
   }
   .text-overlay {
     color: white;
@@ -402,8 +394,7 @@
   .HomePageImg1 {
     width: 400px;
   }
-  .zoomTechName-col{
-
+  .zoomTechName-col {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,8 +404,8 @@
   }
   /* ?=================================================================== */
   .homePage-section2-img1 {
-    width: 200px;
-    height: 400px;
+    width: 170px;
+    height: 300px;
   }
 
   /* ?======================================================================== */
@@ -430,7 +421,7 @@
 
   .home-btns-img {
     width: 70px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: color 0.3s ease, transform 0.3s ease;
   }
@@ -449,21 +440,15 @@
   .hss-container-image {
     width: 70px;
   }
-  .Clients-div{
+  .Clients-div {
     width: 100% !important;
   }
 }
 
-
-
-
 @media (min-width: 769px) and (max-width: 1024px) {
-
-
   .video-background {
     width: 100%;
     height: 500px;
-    
   }
   .text-overlay {
     color: white;
@@ -479,8 +464,7 @@
   .HomePageImg1 {
     width: 350px;
   }
-  .zoomTechName-col{
-
+  .zoomTechName-col {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -499,7 +483,7 @@
   .setion2-video-background {
     width: 100%;
     height: 400px;
-  }   
+  }
 
   .homePage-section3-img2 {
     width: 350px;
@@ -507,7 +491,6 @@
 
   .home-btns-img {
     width: 100px;
-    
   }
 
   .home-btns-title {
@@ -524,15 +507,9 @@
   .hss-container-image {
     width: 70px;
   }
-  .Clients-div{
+  .Clients-div {
     width: 100% !important;
   }
 }
-
-
-
-
-
-
 
 /* ! Start Section-4 (Busnies Solution)  */
