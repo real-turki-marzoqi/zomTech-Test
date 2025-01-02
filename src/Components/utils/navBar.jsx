@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../../images/diverse/logo.png";
+import Logo from "../../Images/diverse/logo.png";
 import saVision from "../../images/diverse/SaVision.png";
 import "../../Styles/navBar.css";
 import { Link } from "react-router-dom";
