@@ -18,7 +18,8 @@
   right: 20px;
   transform: translateY(-50%);
   color: white;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 60px;
   font-weight: bold;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.155);
@@ -307,7 +308,8 @@
   .text-overlay {
     margin-top: 35px;
     color: white;
-    font-size: 25px;
+    font-size: 12px;
+    line-height: 40px;
     background-color: rgba(0, 0, 0, 0.415);
   }
   /* ? =========================================================== */
@@ -373,7 +375,8 @@
   }
   .text-overlay {
     color: white;
-    font-size: 22px;
+    font-size: 15px;
+    line-height: 40px;
     background-color: rgba(0, 0, 0, 0.293);
   }
   /* ? =========================================================== */
@@ -443,7 +446,8 @@
   }
   .text-overlay {
     color: white;
-    font-size: 22px;
+    font-size: 20px !important;
+    line-height: 60px;
     background-color: rgba(0, 0, 0, 0.293);
   }
   /* ? =========================================================== */
