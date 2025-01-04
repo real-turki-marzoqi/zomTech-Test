@@ -46,12 +46,12 @@ const BtnsSectionContainer = () => {
     </Col>
 
     <Col className="" xl={3} lg={6} md={6} sm={6} xs={6}>
-      <Link className="custom-link" to={"/blog"}>
+      <a className="custom-link" href="https://zoomtechsa.odoo.com/appointment">
         <BtnsSectionCard
           icon={blogbtn}
           text={"الخدمات الميدانية"}
         />
-      </Link>
+      </a>
     </Col>
   </Row>
 </Container>

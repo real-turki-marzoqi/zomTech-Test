@@ -1,5 +1,5 @@
 .footer {
-  background-color: #113454; /* لون خلفية خفيف */
+  background-color: #113454; 
   padding: 20px 0;
   font-family: "Arial", sans-serif;
   text-align: center;
@@ -23,7 +23,7 @@
 }
 
 .footer-link:hover {
-  color: #460f30; /* لون عند التمرير */
+  color: #460f30; 
 }
 
 /* النصوص الإضافية */
@@ -43,14 +43,14 @@
 }
 
 .footer-logo {
-  width: 200px;
+  width: 450px;
   height: auto;
   transition: transform 0.3s ease;
   margin-bottom: 20px;
 }
 
 .footer-logo:hover {
-  transform: scale(1.1); /* تكبير الصورة قليلاً عند التمرير */
+  transform: scale(1.1); 
 }
 
 /* الوسائط المتعددة */
@@ -84,7 +84,7 @@
   }
   .footer-text {
     font-size: 0.8rem;
-    text-align: center; /* محاذاة النصوص للمركز */
+    text-align: center;
   }
   .footer-logo {
     width: 80px;
@@ -97,7 +97,7 @@
 
 /* الحاوية الرئيسية للنص */
 .footer-rights {
-  text-align: center; /* محاذاة النص للوسط */
+  text-align: center; 
   margin-top: 50px;
   padding: 10px;
   display: flex;
@@ -107,8 +107,8 @@
 
 /* النص */
 .rights-text {
-  font-size: 2rem; /* الحجم الأساسي للنص */
-  color: #ffffff; /* لون رمادي */
+  font-size: 2rem; 
+  color: #ffffff; 
   font-weight: 400;
   line-height: 1.5;
   direction: rtl;
@@ -118,14 +118,18 @@
 /* النص عند الشاشات الأكبر */
 @media (min-width: 768px) {
   .rights-text {
-    font-size: 1.1rem; /* تكبير النص قليلاً */
+    font-size: 1.1rem; 
   }
 }
 
 /* النص عند الشاشات الأصغر */
 @media (max-width: 576px) {
   .rights-text {
-    font-size: 0.6rem; /* تصغير النص للشاشات الصغيرة */
+    font-size: 0.6rem; 
     padding: 5px;
   }
+}
+.Branches{
+   margin-top: 30px;
+   font-weight: 700;
 }

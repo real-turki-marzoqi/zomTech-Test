@@ -37,8 +37,8 @@ const NavBar = () => {
                 <Link className="custom-link" to="./">
                   <p className="link-text">الرئيسية</p>
                 </Link>
-                <Link className="custom-link" to="./businessSolutions">
-                  <p className="link-text">حلول الأعمال</p>
+                <Link className="custom-link" to="/annualContracts">
+                  <p className="link-text"> العقود السنوية</p>
                 </Link>
                 <Link className="custom-link" to="/packages">
                   <p className="link-text">باقاتنا</p>

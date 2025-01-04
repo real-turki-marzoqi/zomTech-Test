@@ -32,92 +32,115 @@ const ClientsContainer = () => {
   return (
     <Container className="mt-5 mb-5">
       <Row className="client-div-main-row">
-        <h3> عملاؤنا</h3>
+        <h3 className="mb-5"> عملاؤنا</h3>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image1} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image5} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image6} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image7} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image8} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image13} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image14} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image15} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image18} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image19} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image20} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image21} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image23} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image24} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image25} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image26} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image31} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image32} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image33} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image34} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image35} />
         </Col>
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image36} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image16} />
         </Col>
 
-        <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+        
+        <Col xl={1} lg={2} md={3} sm={4} xs={3}>
           <CilentsCard image={image30} />
         </Col>
       </Row>

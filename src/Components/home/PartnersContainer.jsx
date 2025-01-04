@@ -24,6 +24,10 @@ import image20 from "../../Images/Partners/21.png";
 import image21 from "../../Images/Partners/22.png";
 import image22 from "../../Images/Partners/23.png";
 import image23 from "../../Images/Partners/24.png";
+import image24 from "../../Images/Partners/25.png";
+import image25 from "../../Images/Partners/26.png";
+import image26 from "../../Images/Partners/27.png";
+import image27 from "../../Images/Partners/28.png";
 
 const PartnersContainer = () => {
   return (
@@ -35,83 +39,95 @@ const PartnersContainer = () => {
         <Row>
           <h3> شركاؤنا</h3>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+          <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image0} />
           </Col>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image1} />
           </Col>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image2} />
           </Col>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image3} />
           </Col>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image4} />
           </Col>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image5} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image6} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image7} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image8} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image9} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image10} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image11} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image12} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image13} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image14} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image15} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image16} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image17} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image18} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image19} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image20} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image21} />
           </Col>
 
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image22} />
           </Col>
-          <Col xl={2} lg={2} md={3} sm={6} xs={6}>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image23} />
+          </Col>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+            <PartnersCard image={image24} />
+          </Col>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+            <PartnersCard image={image25} />
+          </Col>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+            <PartnersCard image={image26} />
+          </Col>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+            <PartnersCard image={image27} />
           </Col>
         </Row>
       </Container>
