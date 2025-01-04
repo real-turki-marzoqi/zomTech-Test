@@ -28,6 +28,7 @@ import image24 from "../../Images/Partners/25.png";
 import image25 from "../../Images/Partners/26.png";
 import image26 from "../../Images/Partners/27.png";
 import image27 from "../../Images/Partners/28.png";
+import image28 from "../../Images/Partners/29.png";
 
 const PartnersContainer = () => {
   return (
@@ -129,6 +130,11 @@ const PartnersContainer = () => {
                   <Col xl={2} lg={3} md={4} sm={6} xs={6}>
             <PartnersCard image={image27} />
           </Col>
+                  <Col xl={2} lg={3} md={4} sm={6} xs={6}>
+            <PartnersCard image={image28} />
+          </Col>
+
+          
         </Row>
       </Container>
     </div>

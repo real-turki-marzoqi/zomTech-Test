@@ -13,29 +13,25 @@ const Footer = () => {
           <Col xl={4} lg={4} md={4} sm={12} xs={12} className="footer-section">
             <h4 className="footer-title">روابط مهمة</h4>
 
-            <Link className="custom-link" to="/freeConsultation">
-              <p className="footer-link"> احصل على إستشارة مجانية</p>
+            <a className="custom-link" href="https://zoomtechsa.odoo.com/ ">
+              <p className="footer-link Branches "> المتجر الإلكتروني </p>
+            </a>
+
+            <Link className="custom-link" to="/">
+              <p className="footer-link Branches">الصفحة الرئيسية</p>
             </Link>
-            <Link className="custom-link" to="/businessSolutions">
-              <p className="footer-link"> حلول أعمالنا</p>
+
+            <Link className="custom-link" to="/annualContracts">
+              <p className="footer-link Branches">العقود السنوية </p>
             </Link>
-            <Link className="custom-link" to="/ConnectingToSystems">
-              <p className="footer-link"> الربط مع الأنظمة</p>
-            </Link>
+
             <Link className="custom-link" to="/packages">
-              <p className="footer-link"> الباقات والعروض</p>
+              <p className="footer-link Branches"> الباقات </p>
             </Link>
-            <Link className="custom-link" to="/blog">
-              <p className="footer-link"> المدونة</p>
-            </Link>
-            <Link className="custom-link" to="/whyVisionFuture">
-              <p className="footer-link"> لماذا نحن</p>
-            </Link>
-            <Link className="custom-link" to="/whoAreWe">
-              <p className="footer-link"> من نحن</p>
-            </Link>
-            <Link className="custom-link" to="/workProcess">
-              <p className="footer-link"> الية العمل</p>
+
+          
+            <Link className="custom-link  " to="/whoAreWe">
+              <p className="footer-link Branches"> من نحن</p>
             </Link>
           </Col>
 
