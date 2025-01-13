@@ -7,6 +7,7 @@ import ScrollToTop from "./Components/utils/ScrollToTop";
 import AnnualContracts from "./Pages/annualContracts";
 import NotFoundPage from './Pages/notFoundPage.jsx'
 import WhoAreWe from "./Pages/whoAreWe.jsx";
+import BusinessSolutionsPage from "./Pages/businessSolutionsPage.jsx";
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/annualContracts" element={<AnnualContracts />} />
         <Route path="/*" element={<NotFoundPage />} />
         <Route path="/whoAreWe" element={<WhoAreWe />} />
+        <Route path="/businessSolutionsPage" element={<BusinessSolutionsPage />} />
     
       </Routes>
 

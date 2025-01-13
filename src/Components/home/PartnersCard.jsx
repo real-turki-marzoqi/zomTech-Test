@@ -1,17 +1,12 @@
-
-
-
 // eslint-disable-next-line react/prop-types
-const PartnersCard = ({image}) => {
+const PartnersCard = ({ image, lnk }) => {
   return (
-  
- 
-<div className="partners-dev">
- <img className='partners-img' src={image} alt='partners-logos'/>
-</div>
+    <a className="custom-link" href={lnk}>
+      <div className="partners-dev">
+        <img className="partners-img" src={image} alt="partners-logos" />
+      </div>
+    </a>
+  );
+};
 
-   
-  )
-}
-
-export default PartnersCard
+export default PartnersCard;
