@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../../Images/diverse/logo.png";
+import Logo from "../../Images/diverse/zoomTechLogo.png";
 import saVision from "../../Images/diverse/SaVision.png";
 import "../../Styles/navBar.css";
 import { Link } from "react-router-dom";
@@ -43,7 +43,6 @@ const NavBar = () => {
                 <Link className="custom-link" to="/packages">
                   <p className="link-text">باقاتنا</p>
                 </Link>
-
                 <Link className="custom-link" to="/whoAreWe">
                   <p className="link-text">من نحن</p>
                 </Link>

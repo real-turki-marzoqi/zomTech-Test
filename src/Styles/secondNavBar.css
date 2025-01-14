@@ -1,0 +1,161 @@
+.secondNavBar-Main {
+  background-color: #113454;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondNavBar-Main {
+  background-color: #113454;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondNavBar-Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondNavBar-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondNavBar-logo-col {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.secondNavBar-logo {
+  height: 90px;
+}
+
+.secondNavBar-savsion-col {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.secondNavBar-savsion {
+  height: 50px;
+}
+
+.secondNavBar-links-col {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.secondNavBar-Link {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+
+.secondNavBar-Link:hover{
+
+    transform: scale(1.1);
+    color: #050f1849;
+}
+
+
+@media (max-width: 450px) {
+
+    .secondNavBar-logo{
+
+        height: 40px;
+    }
+    .secondNavBar-savsion {
+
+        height: 20px;
+    }
+
+    .secondNavBar-Link{
+        font-size: 5px;
+        margin-left: 8px;
+    }
+    .secondNavBar-links-col{
+
+        justify-content: center;
+    } 
+}
+@media (min-width: 450px) and  (max-width:570px) {
+
+    .secondNavBar-logo{
+
+        height: 60px;
+    }
+    .secondNavBar-savsion {
+
+        height: 30px;
+    }
+
+    .secondNavBar-Link{
+        font-size: 8px;
+        margin-left: 9px;
+    }
+    .secondNavBar-links-col{
+
+        justify-content: center;
+    } 
+}
+@media (min-width: 571px) and  (max-width:767px) {
+
+    .secondNavBar-logo{
+        height: 70px;
+    }
+    .secondNavBar-savsion {
+        height: 40px;
+    }
+
+    .secondNavBar-Link{
+        font-size: 10px;
+        margin-left: 9px;
+    }
+    .secondNavBar-links-col{
+        justify-content: center;
+    } 
+}
+@media (min-width: 768px) and  (max-width:1024px) {
+
+    .secondNavBar-logo{
+        height: 80px;
+    }
+    .secondNavBar-savsion {
+        height: 50px;
+    }
+
+    .secondNavBar-Link{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .secondNavBar-links-col{
+        justify-content: center;
+    } 
+}
+@media (min-width: 1025px) and  (max-width:1300px) {
+
+    .secondNavBar-logo{
+        height: 90px;
+    }
+    .secondNavBar-savsion {
+        height: 50px;
+    }
+
+    .secondNavBar-Link{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .secondNavBar-links-col{
+        justify-content: start;
+      padding-right: 50px;
+    } 
+}

@@ -8,9 +8,7 @@ import AnnualContracts from "./Pages/annualContracts";
 import NotFoundPage from './Pages/notFoundPage.jsx'
 import WhoAreWe from "./Pages/whoAreWe.jsx";
 import BusinessSolutionsPage from "./Pages/businessSolutionsPage.jsx";
-
-
-
+import SecondNavBar from "./Components/utils/secondNavBar.jsx";
 
 /* import WhoAreWe from "./Pages/whoAreWe.js"; */
 
@@ -21,7 +19,7 @@ function App() {
     <div className="app">
       {/* المكونات المشتركة */}
       <ScrollToTop />
-      <NavBar />
+      <SecondNavBar />
 
       {/* التوجيه */}
       <Routes>
