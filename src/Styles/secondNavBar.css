@@ -79,8 +79,8 @@
     }
 
     .secondNavBar-Link{
-        font-size: 5px;
-        margin-left: 8px;
+        font-size: 4px;
+        margin-left: 9px;
     }
     .secondNavBar-links-col{
 
@@ -99,8 +99,9 @@
     }
 
     .secondNavBar-Link{
-        font-size: 8px;
-        margin-left: 9px;
+        font-size: 5px;
+        margin-left: 5px;
+        font-weight: 900;
     }
     .secondNavBar-links-col{
 
@@ -117,8 +118,8 @@
     }
 
     .secondNavBar-Link{
-        font-size: 10px;
-        margin-left: 9px;
+        font-size: 7px !important;
+        margin-left:6px;
     }
     .secondNavBar-links-col{
         justify-content: center;
@@ -134,7 +135,7 @@
     }
 
     .secondNavBar-Link{
-        font-size: 12px;
+        font-size: 9px;
         margin-left: 15px;
     }
     .secondNavBar-links-col{
@@ -151,7 +152,7 @@
     }
 
     .secondNavBar-Link{
-        font-size: 14px;
+        font-size: 10px;
         margin-left: 20px;
     }
     .secondNavBar-links-col{

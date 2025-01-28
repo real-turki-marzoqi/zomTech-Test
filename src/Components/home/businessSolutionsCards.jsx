@@ -22,3 +22,4 @@ const BusinessSolutionsCards = ({title, text,img,lnk}) => {
 };
 
 export default BusinessSolutionsCards;
+  

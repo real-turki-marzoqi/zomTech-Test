@@ -29,24 +29,36 @@ const SecondNavBar = () => {
             xs={9}
             className="secondNavBar-col secondNavBar-links-col"
           >
-  
             <Link to="./" className="secondNavBar-Link">
-              الرئيسية  
+              الرئيسية
             </Link>
-            <a href="https://zoomtechsa.odoo.com/ "className="secondNavBar-Link">
-             المتجر الإلكتروني
+            <a
+              href="https://zoomtechsa.odoo.com/ "
+              className="secondNavBar-Link"
+            >
+              المتجر الإلكتروني
             </a>
-            <Link  to="/annualContracts" className="secondNavBar-Link">
-            العقود السنوية
+            <Link to="/annualContracts" className="secondNavBar-Link">
+              العقود السنوية
             </Link>
-            <Link to={'/packages'} className="secondNavBar-Link">
-            باقاتنا
+            <Link to={"/packages"} className="secondNavBar-Link">
+              باقاتنا
+            </Link>
+            <Link
+              to={"https://zoomtechsa.odoo.com/appointment"}
+              className="secondNavBar-Link"
+            >
+              الخدمات الميدانية
+            </Link>
+            <Link
+              to={"https://zoomtechsa.odoo.com/helpdesk/blgt-l-tl-wlsyn-1"}
+              className="secondNavBar-Link"
+            >
+              الدعم الفني
             </Link>
             <Link to="/whoAreWe" className="secondNavBar-Link">
-           من نحن
+              من نحن
             </Link>
-
-          
           </Col>
 
           <Col
